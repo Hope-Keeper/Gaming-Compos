@@ -5,7 +5,7 @@
 /* eslint-disable @typescript-eslint/no-empty-interface */
 
 /* eslint-disable multiline-ternary */
-import { type FunctionComponent, useState, useCallback } from 'react'
+import { type FunctionComponent } from 'react'
 import Twitter from '../Social-Icons/Twitter'
 import Instagram from '../Social-Icons/Instagram'
 import YouTube from '../Social-Icons/Youtube'
