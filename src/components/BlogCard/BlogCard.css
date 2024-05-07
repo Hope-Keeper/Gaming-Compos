@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .blogCard {
+
+        @apply relative w-[310px] h-[342px] shadow-3xl
+    }
+
+    .blogCard {
+        @layer
+    }
+
+
+    .blogImage {
+        @apply absolute top-0 w-[310px] h-[192px] rounded-[10px]
+    }
+
+    .blogDetails {
+        @apply absolute bg-white bottom-0 w-[100%] h-[170px] rounded-[10px] p-[15px] flex flex-col items-end gap-[11px] shadow-4xl
+    }
+
+    .blogDetails {
+        @layer
+    }
+
+    .blogLable {
+        @apply h-[28px] rounded-[10px] py-[5px] px-[10px] flex items-center gap-[10px] border-solid border-[1px] border-[#0D8B0B] bg-[#ECFFF2]
+    }
+
+    .blogLable p {
+        @apply h-[18px] font-yekan font-normal text-[10px] leading-[18px] text-right text-[#0D8B0B]
+    }
+
+    .blogText {
+        @apply w-[100%] font-yekan font-normal text-[14px] leading-[25.2px] text-right
+    }
+
+    .blogInfo {
+        @apply w-[100%] border-t-[1px] border-solid border-t-[#EAEBF0] pt-[12px] flex flex-row gap-[86px] items-center
+    }
+
+    .blogInfoDate {
+        @apply h-[22px] flex flex-row items-center gap-[3px]
+    }
+
+    .blogInfoDate p {
+        @apply text-right font-yekan text-[12px] font-normal leading-[21.6px] text-[#666872]
+    }
+
+    .blogInfoBlogger {
+        @apply w-[123px] flex flex-row items-center gap-[5px]
+    }
+
+    .bloggerName {
+        @apply flex flex-row items-center gap-[5px]
+    }
+
+    .bloggerName p {
+        @apply text-right font-yekan text-[12px] font-normal leading-[21.6px] text-[#666872]
+    }
+
+    .bloggerAvatar {
+        @apply h-[28px] w-[28px] rounded-[50%]
+    }
+}

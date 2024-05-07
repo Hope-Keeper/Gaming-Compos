@@ -114,6 +114,10 @@ export default {
       ]
     },
     extend: {
+      boxShadow: {
+        '3xl': '0 10px 30px 0px rgba(0, 0, 0, 0.05)',
+      '4xl':'0 30px 80px 0 rgba(0,0,0,0.04)'
+      },
       spacing: {
         xs: '0.5rem',
         s: '1rem',
@@ -121,10 +125,7 @@ export default {
         l: '2rem',
         xl: '2.5rem'
       },
-      boxShadow: {
-        card: '0px 70px 100px -20px #32325D40, 0px 50px 60px -30px #0000004D',
-        comment: '0px -7px 18px -10px #00000040'
-      }
+    
     },
     namedGroups: ['foo']
   },
